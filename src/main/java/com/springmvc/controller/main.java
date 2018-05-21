@@ -37,9 +37,6 @@ public class main {
         System.out.println(adminService.getAdmin(id).getName());
         return adminService.getAdmin(id);
 
-
-
-
     }
 
     @RequestMapping(value = "/admin/user", method = RequestMethod.GET)
