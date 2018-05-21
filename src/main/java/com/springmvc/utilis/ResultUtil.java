@@ -8,6 +8,7 @@ public class ResultUtil {
         result.setMessage("OK");
         result.setData(data);
         return result;
+
     }
 
     public static Result success(){
